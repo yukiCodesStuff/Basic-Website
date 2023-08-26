@@ -41,6 +41,11 @@ body {
 
 .nav-item a:hover{
     color: lightgray;
+    font-size: larger;
+}
+
+.nav-item a:active {
+    color: rgb(235, 235, 235);
 }
 
 .nav-item:first-child {
@@ -61,4 +66,9 @@ body {
 .shop-btn:hover {
     background: #946666;
     cursor: pointer;
+    font-size: larger;
+}
+
+.shop-btn:active {
+    background: #957373;
 }
