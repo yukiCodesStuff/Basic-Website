@@ -1,5 +1,26 @@
 body {
-    background: gray;
+    background: #9b5151;
+    margin-bottom: 3rem;
+}
+
+#page-container {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+
+#content-wrap {
+    padding-bottom: 1rem;    /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    right: 1rem;          /* Footer height */
+    background-color: white;
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 .nav-image {
