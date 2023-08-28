@@ -1,0 +1,33 @@
+.photo-grid {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.foto-img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.foto-img-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 2rem 2rem;
+    border-radius: 25px;
+}
+
+.foto-img-item p {
+    margin-left: 2rem;
+    margin-right: auto;
+    font-family: 'Roboto';
+    color: #9b5151;
+}
+
+.foto-img-item:first-child {
+    margin-top: 1rem;
+}
